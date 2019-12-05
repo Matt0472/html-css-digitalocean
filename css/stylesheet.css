@@ -60,3 +60,10 @@ footer {
   background-color: purple;
   height: 400px;
 }
+
+/* media query */
+@media screen and (max-width: 768px) {
+  .wrapper_xs_100 {
+    width: 100%;
+  }
+}
