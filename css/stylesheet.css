@@ -1,5 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
+  font-size: 16px;
 }
 
 /* utility */
@@ -20,11 +21,48 @@ header {
   height: 500px;
 }
 .header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1030;
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+ul.nav_list li a {
+  text-decoration: none;
+  color: rgb(3, 27, 78);
+}
+ul.nav_list li a i{
+  font-size: 0.7em;
+}
+ul.nav_list li a:hover,
+ul.nav_list li a:active,
+ul.nav_list li a:focus {
+  color: rgb(10, 69, 245);
+}
+.btn_blue {
+  border-color: rgb(10, 69, 245);
+  color: rgb(10, 69, 245);
+}
+.btn_blue:hover,
+.btn_blue:active,
+.btn_blue:focus {
+  background-color: rgb(10, 69, 245);;
+  color: rgb(255, 255, 255);
+}
+.logo_container {
+  width: 100%;
   height: 100px;
-  background-color: lightblue;
+  background-color: purple;
+}
+.nav_logo {
+  width: 70%;
 }
 .header_bottom {
-  height: 400px;
+  height: 500px;
+  margin-top: 50px;
   background-color: orange;
 }
 /* main */
