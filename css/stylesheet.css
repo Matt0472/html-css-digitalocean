@@ -1,6 +1,15 @@
 body {
   font-family: 'Rubik', sans-serif;
+}
 
+/* utility */
+.wrapper_30 {
+  float: left;
+  width: 30%;
+}
+.wrapper_70 {
+  float: left;
+  width: 70%;
 }
 /* header */
 header {
