@@ -1,3 +1,53 @@
 body {
   font-family: 'Rubik', sans-serif;
+
+}
+/* header */
+header {
+  height: 500px;
+}
+.header_top {
+  height: 100px;
+  background-color: lightblue;
+}
+.header_bottom {
+  height: 400px;
+  background-color: orange;
+}
+/* main */
+main {
+  height: 2100px;
+}
+.logo {
+  height: 200px;
+  background-color: grey;
+}
+.deploy {
+  height: 400px;
+  background-color: brown;
+}
+.designed {
+  height: 400px;
+  background-color: red;
+}
+.features {
+  height: 200px;
+  background-color: green;
+}
+.world {
+  height: 400px;
+  background-color: lightgrey;
+}
+.development {
+  height: 300px;
+  background-color: lightgreen;
+}
+.get_started {
+  height: 200px;
+  background-color: lightyellow;
+}
+/* footer */
+footer {
+  background-color: purple;
+  height: 400px;
 }
