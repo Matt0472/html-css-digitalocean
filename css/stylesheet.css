@@ -31,7 +31,6 @@ header {
   background-color: rgb(255, 255, 255);
 }
 .header_bottom {
-  height: 500px;
   margin-top: 50px;
   background-image: url(../img/back_jumbo.jpg);
   background-repeat: no-repeat;
@@ -74,7 +73,17 @@ ul.nav_list li a:focus {
   vertical-align: middle;
   color: rgb(56, 89, 228);
 }
-
+/* jumbotron */
+.jumbo_title {
+  margin-top: 70px;
+  font-size: 3.7em;
+  color: rgb(255, 255, 255);
+}
+.jumbo_text {
+  margin-bottom: 70px;
+  font-size: 1.1em;
+  color: rgb(215, 213, 213);
+}
 /* main */
 main {
   height: 2100px;
