@@ -18,7 +18,7 @@ body {
 }
 /* header */
 header {
-  height: 500px;
+
 }
 .header_top {
   position: fixed;
@@ -37,6 +37,8 @@ header {
   background-size: cover;
   background-position: center;
 }
+
+
 /* navbar */
 ul.nav_list li a {
   text-decoration: none;
@@ -83,6 +85,26 @@ ul.nav_list li a:focus {
   margin-bottom: 70px;
   font-size: 1.1em;
   color: rgb(215, 213, 213);
+}
+.login_container {
+  margin: 70px 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.login_container h3 {
+  color: rgb(3, 27, 78);
+}
+h3.get_now {
+  color: rgb(56, 89, 228);
+}
+.btn_create,
+.btn_password {
+  padding: 20px;
+  font-size: 1.1em;
+}
+.google_btn img {
+  height: 20px;
 }
 /* main */
 main {
