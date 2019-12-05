@@ -3,13 +3,17 @@ body {
 }
 
 /* utility */
-.wrapper_30 {
+.float-left {
   float: left;
+}
+.wrapper_30 {
   width: 30%;
 }
 .wrapper_70 {
-  float: left;
   width: 70%;
+}
+.margin_0_auto {
+  margin: 0 auto;
 }
 /* header */
 header {
