@@ -182,9 +182,24 @@ h3.get_now {
 #designed {
   background-color: rgb(241, 241, 241);
 }
-.wrapper_70.margin_0_auto img {
-  width: 90%;
-  margin: 20px 10px 50px 10px;
+.slider_container {
+  position: relative;
+}
+.slider img {
+  width: 95%;
+}
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
 }
 
 /* quarta section */
@@ -214,6 +229,12 @@ footer {
 }
 
 /* media query */
+@media screen and (max-width: 480px) {
+  .nav_logo {
+    height: 25px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .wrapper_xs_100 {
     width: 100%;
@@ -237,17 +258,7 @@ footer {
   .wrapper_70.float-left.wrapper_xs_100 img {
     margin-top: 15px;
   }
-  .wrapper_70.margin_0_auto img {
-    width: 80%;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
-  .wrapper_70.margin_0_auto img {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .nav_logo {
-    height: 25px;
-  }
+
 }
