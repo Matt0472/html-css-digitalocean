@@ -183,22 +183,10 @@ h3.get_now {
   background-color: rgb(241, 241, 241);
 }
 .wrapper_70.margin_0_auto img {
-  width: 100%;
-  margin-bottom: 50px;
+  width: 90%;
+  margin: 20px 10px 50px 10px;
 }
-.arrow_left {
-  text-align: right;
-  position: relative;
-}
-.arrow_right {
-  position: relative;
-}
-.arrow_left i,
-.arrow_right i {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 /* quarta section */
 #features {
   height: 200px;
@@ -248,6 +236,14 @@ footer {
   }
   .wrapper_70.float-left.wrapper_xs_100 img {
     margin-top: 15px;
+  }
+  .wrapper_70.margin_0_auto img {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .wrapper_70.margin_0_auto img {
+    width: 80%;
   }
 }
 @media screen and (max-width: 480px) {
