@@ -16,10 +16,10 @@ body {
 .margin_0_auto {
   margin: 0 auto;
 }
-/* header */
-header {
-
+.line_height_100 {
+  line-height: 100px;
 }
+/* header */
 .header_top {
   position: fixed;
   top: 0;
@@ -120,31 +120,79 @@ h3.get_now {
 main {
   height: 2100px;
 }
-.logo {
-  height: 200px;
-  background-color: grey;
+/* prima section */
+#logo {
+  background-color: rgb(241, 241, 241);
 }
-.deploy {
+#logo h4{
+  margin-top: 50px;
+  font-size: 1.3em;
+  color: rgb(180, 180, 180);
+}
+#docker_logo {
+  height: 80px;
+  vertical-align: middle;
+}
+#gitlab_logo {
+  height: 90px;
+  vertical-align: middle;
+}
+#slack_logo {
+  height: 80px;
+  vertical-align: middle;
+}
+#hashicorp_logo {
+  height: 80px;
+  width: 160px;
+  vertical-align: middle;
+}
+#wework_logo {
+  height: 80px;
+  vertical-align: middle;
+}
+#splunk_logo {
+  height: 43px;
+  vertical-align: middle;
+}
+#cs_story {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #0069ff;
+  line-height: 20px;
+  text-decoration: none;
+}
+#cs_story span {
+  vertical-align: middle;
+  font-size: 0.7em;
+}
+/* seconda section */
+#deploy {
   height: 400px;
   background-color: brown;
 }
-.designed {
+/* terza section */
+#designed {
   height: 400px;
   background-color: red;
 }
-.features {
+/* quarta section */
+#features {
   height: 200px;
   background-color: green;
 }
-.world {
+/* quinta section */
+#world {
   height: 400px;
   background-color: lightgrey;
 }
-.development {
+/* sesta section */
+#development {
   height: 300px;
   background-color: lightgreen;
 }
-.get_started {
+/* settima section */
+#get_started {
   height: 200px;
   background-color: lightyellow;
 }
@@ -161,6 +209,34 @@ footer {
   }
   .jumbo_title {
     font-size: 3.2em;
+  }
+  #logo h4{
+    font-size: 0.9em;
+  }
+  #docker_logo {
+    height: 70px;
+  }
+  #gitlab_logo {
+    height: 80px;
+  }
+  #slack_logo {
+    height: 70px;
+  }
+  #hashicorp_logo {
+    height: 60px;
+    width: 140px;
+  }
+  #wework_logo {
+    height: 70px;
+  }
+  #splunk_logo {
+    height: 38px;
+  }
+  #cs_story {
+    font-size: 0.8em;
+  }
+  #cs_story span {
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 480px) {
