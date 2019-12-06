@@ -13,6 +13,15 @@ body {
 .wrapper_70 {
   width: 70%;
 }
+.margin_top_60 {
+  margin-top: 60px;
+}
+.margin_top_50 {
+  margin-top: 50px;
+}
+.margin_bottom_80 {
+  margin-bottom: 80px;
+}
 .margin_0_auto {
   margin: 0 auto;
 }
@@ -169,6 +178,9 @@ main {
 .section_list ul li:last-child {
   margin-bottom: 10px;
 }
+.wrapper_70.float-left.wrapper_xs_100 img {
+  margin-bottom: 15px;
+}
 /* terza section */
 #designed {
   height: 400px;
@@ -220,6 +232,9 @@ footer {
   }
   #cs_story span {
     font-size: 0.8em;
+  }
+  .wrapper_70.float-left.wrapper_xs_100 img {
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 480px) {
