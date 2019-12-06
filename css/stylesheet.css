@@ -126,9 +126,6 @@ h3.get_now {
   left: 50px;
 }
 /* main */
-main {
-  height: 2100px;
-}
 /* prima section */
 #logo {
   background-color: rgb(241, 241, 241);
@@ -183,8 +180,11 @@ main {
 }
 /* terza section */
 #designed {
-  height: 400px;
-  background-color: red;
+  background-color: rgb(241, 241, 241);
+}
+.wrapper_70.margin_0_auto img {
+  width: 100%;
+  margin-bottom: 50px;
 }
 /* quarta section */
 #features {
