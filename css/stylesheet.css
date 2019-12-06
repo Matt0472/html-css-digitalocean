@@ -83,7 +83,7 @@ ul.nav_list li a:focus {
 }
 .jumbo_text {
   margin-bottom: 70px;
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: rgb(215, 213, 213);
 }
 .login_container {
@@ -95,6 +95,14 @@ ul.nav_list li a:focus {
 .login_container h3 {
   color: rgb(3, 27, 78);
 }
+.login_container p {
+  color: rgb(3, 27, 78);
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+.login_container p a{
+  text-decoration: underline;
+}
 h3.get_now {
   color: rgb(56, 89, 228);
 }
@@ -105,6 +113,8 @@ h3.get_now {
 }
 .google_btn img {
   height: 20px;
+  position: absolute;
+  left: 50px;
 }
 /* main */
 main {
@@ -148,6 +158,9 @@ footer {
 @media screen and (max-width: 768px) {
   .wrapper_xs_100 {
     width: 100%;
+  }
+  .jumbo_title {
+    font-size: 3.2em;
   }
 }
 @media screen and (max-width: 480px) {
