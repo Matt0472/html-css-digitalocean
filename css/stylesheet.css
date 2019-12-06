@@ -186,6 +186,16 @@ h3.get_now {
   width: 100%;
   margin-bottom: 50px;
 }
+.arrow_left {
+  text-align: right;
+}
+.arrow_right {
+
+}
+.arrow_left i,
+.arrow_right i {
+
+}
 /* quarta section */
 #features {
   height: 200px;
