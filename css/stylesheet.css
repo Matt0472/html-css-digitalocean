@@ -188,13 +188,16 @@ h3.get_now {
 }
 .arrow_left {
   text-align: right;
+  position: relative;
 }
 .arrow_right {
-
+  position: relative;
 }
 .arrow_left i,
 .arrow_right i {
-
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 /* quarta section */
 #features {
