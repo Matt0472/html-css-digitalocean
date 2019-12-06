@@ -129,31 +129,11 @@ main {
   font-size: 1.3em;
   color: rgb(180, 180, 180);
 }
-#docker_logo {
-  height: 80px;
-  vertical-align: middle;
+.section_logo {
+  width: calc((100% / 6) - 20px);
+  margin-right: 10px;
 }
-#gitlab_logo {
-  height: 90px;
-  vertical-align: middle;
-}
-#slack_logo {
-  height: 80px;
-  vertical-align: middle;
-}
-#hashicorp_logo {
-  height: 80px;
-  width: 160px;
-  vertical-align: middle;
-}
-#wework_logo {
-  height: 80px;
-  vertical-align: middle;
-}
-#splunk_logo {
-  height: 43px;
-  vertical-align: middle;
-}
+
 #cs_story {
   display: inline-block;
   margin-bottom: 30px;
@@ -168,8 +148,26 @@ main {
 }
 /* seconda section */
 #deploy {
-  height: 400px;
-  background-color: brown;
+  background-color: rgb(255, 255, 255);
+}
+.section_list {
+  border-left: 2px solid rgb(180, 180, 180);
+  padding-left: 10px;
+}
+.section_list ul {
+  list-style: none;
+  padding: 0;
+}
+.section_list ul li{
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: rgb(180, 180, 180);
+}
+.section_list ul li:first-child {
+  margin-top: 10px;
+}
+.section_list ul li:last-child {
+  margin-bottom: 10px;
 }
 /* terza section */
 #designed {
@@ -213,24 +211,9 @@ footer {
   #logo h4{
     font-size: 0.9em;
   }
-  #docker_logo {
-    height: 70px;
-  }
-  #gitlab_logo {
-    height: 80px;
-  }
-  #slack_logo {
-    height: 70px;
-  }
-  #hashicorp_logo {
-    height: 60px;
-    width: 140px;
-  }
-  #wework_logo {
-    height: 70px;
-  }
-  #splunk_logo {
-    height: 38px;
+  .section_logo {
+    width: calc((100% / 2) - 20px);
+    margin-right: 10px;
   }
   #cs_story {
     font-size: 0.8em;
