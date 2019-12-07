@@ -273,7 +273,8 @@ h3.get_now {
   background-color: rgb(255, 255, 255);
   margin: 0 20px;
 }
-.slider_dev img{
+.slider_dev img {
+  width: 40%;
   margin-top: 50px;
   margin-bottom: 60px;
 }
@@ -299,13 +300,32 @@ h3.get_now {
 
 /* settima section */
 #get_started {
-  height: 200px;
-  background-color: lightyellow;
+  background-color: rgb(50, 15, 214);
+}
+#get_started h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.btn_get_started {
+  color: rgb(74, 169, 255);
+  padding: 10px 35px;
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+.btn_get_started:hover,
+.btn_get_started:active,
+.btn_get_started:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 169, 255);
+  border-color: rgb(255, 255, 255);
 }
 /* footer */
 footer {
-  background-color: purple;
+  background-color: rgb(10, 21, 91);
   height: 400px;
+  color: white;
 }
 
 /* media query */
