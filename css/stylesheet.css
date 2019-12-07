@@ -327,18 +327,47 @@ footer {
   color: rgb(201, 201, 201);
   padding: 50px 0;
 }
+.footer_logo img {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer_logo p {
+  font-size: 0.9em;
+}
+span.made_ny {
+  font-size: 0.8em;
+  color: rgb(128, 124, 124);
+}
+.footer_logo span a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  font-size: 1.4em;
+  color: rgb(164, 160, 160);
+}
+.footer_logo span a:hover,
+.footer_logo span a:active,
+.footer_logo span a:focus {
+  color: rgb(37, 194, 252);
+}
 footer ul {
   list-style: none;
+  margin-bottom: 25px;
 }
-footer ul li{
+footer ul li {
   color: white;
   font-weight: bold;
   margin-bottom: 8px;
 }
-footer ul li a{
+footer ul li a {
   color: rgb(201, 201, 201);
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 0.8em;
+}
+footer ul li a:hover,
+footer ul li a:active,
+footer ul li a:focus {
+  color: rgb(37, 194, 252);
 }
 
 /* media query */
