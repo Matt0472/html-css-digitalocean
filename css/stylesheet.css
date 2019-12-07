@@ -7,6 +7,9 @@ body {
 .float-left {
   float: left;
 }
+.padding_30 {
+  padding: 30px;
+}
 .wrapper_30 {
   width: 30%;
 }
@@ -25,8 +28,15 @@ body {
 .margin_0_auto {
   margin: 0 auto;
 }
+.border_bottom {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
 .line_height_100 {
   line-height: 100px;
+}
+section h3 {
+  color: rgb(18, 23, 62);
+  font-size: 1.8em;
 }
 /* header */
 .header_top {
@@ -183,8 +193,6 @@ h3.get_now {
   background-color: rgb(241, 241, 241);
 }
 #designed h3 {
-  color: rgb(18, 23, 62);
-  font-size: 1.8em;
   margin-bottom: 30px;
 }
 #designed p {
@@ -226,10 +234,6 @@ h3.get_now {
 #features {
   background-color: rgb(255, 255, 255);
 }
-#features h3 {
-  color: rgb(18, 23, 62);
-  font-size: 1.8em;
-}
 .features_box {
   margin-top: 30px;
   margin-bottom: 80px;
@@ -240,16 +244,30 @@ h3.get_now {
 }
 /* quinta section */
 #world {
-  height: 400px;
-  background-color: lightgrey;
+  background-image: linear-gradient(to bottom left, rgb(9, 112, 201), rgb(7, 52, 147) );
+}
+#world h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.table_style {
+  font-size: 0.9em;
+  padding: 8px;
+}
+.country_code {
+  color: rgb(255, 255, 255);
+}
+.country_city {
+  color: rgb(209, 209, 209);
+}
+.country_test_speed a {
+  color: #00d7d2;
+  text-decoration: none;
 }
 /* sesta section */
 #development {
   background-color: rgb(241, 241, 241);
-}
-#development h3 {
-  color: rgb(18, 23, 62);
-  font-size: 1.8em;
 }
 
 /* settima section */
@@ -267,6 +285,9 @@ footer {
 @media screen and (max-width: 480px) {
   .nav_logo {
     height: 25px;
+  }
+  .around_wolrd {
+    margin-bottom: 20px;
   }
 }
 
@@ -303,6 +324,9 @@ footer {
     color: #0069ff;
     font-size: 0.5em;
   }
+  .around_wolrd {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .left_arrow {
@@ -315,10 +339,18 @@ footer {
     color: #0069ff;
     font-size: 0.7em;
   }
+  .around_wolrd {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 992px){
   .features_box {
     margin-top: 15px;
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .around_wolrd {
+    margin-bottom: 0;
   }
 }
