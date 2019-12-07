@@ -324,8 +324,21 @@ h3.get_now {
 /* footer */
 footer {
   background-color: rgb(10, 21, 91);
-  height: 400px;
+  color: rgb(201, 201, 201);
+  padding: 50px 0;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li{
   color: white;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+footer ul li a{
+  color: rgb(201, 201, 201);
+  font-weight: lighter;
+  font-size: 0.8em;
 }
 
 /* media query */
